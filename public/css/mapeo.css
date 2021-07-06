@@ -1,0 +1,105 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.elemento {
+    padding: 10px;
+    height: 100px;
+    border: solid 2px;
+    font-weight: bold;
+    font-size: 1.3em;
+    text-align: center;
+    /*background: rgb(0, 128, 0);*/
+    transition: 0.5s;
+}
+
+.elemento:hover {
+    background: rgb(255, 229, 81);
+    cursor: pointer;
+}
+
+.border1{
+    border: solid 1px black;
+}
+
+.disponible {
+    background: rgb(13, 128, 13);
+}
+.reservado{
+    background: rgb(10, 76, 193);
+}
+
+.ocupado {
+    color: white;
+    background: rgb(247, 0, 0);
+}
+
+.ocupado:hover{
+    background: rgb(238, 45, 45);
+}
+
+.error {
+    color: red;
+}
+
+
+.si {
+    background: red;
+    color: white;
+}
+
+.si:hover {
+    cursor: default;
+    background: red;
+}
+
+.no {
+    background:  rgb(13, 128, 13);
+}
+
+.seleccionado {
+    background: rgb(255, 229, 81);
+}
+
+#mapeo_id {
+    cursor: default;
+    opacity: 0;
+}
+
+#mapeo_id-error {
+    margin-top: -50px;
+}
+
+.instruccion {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.cuadrado {
+    /* display:flex; */
+    height: 20px !important;
+    width: 20px !important;
+}
+
+.inst {
+    margin-top: -15px;
+}
+
+p span:nth-child(2) {
+    margin-left: 3px;
+}
+
+.fondo_rojo {
+    background: red;
+}
+
+.fondo_verde {
+    background: rgb(0, 202, 0);
+}
+
+

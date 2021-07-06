@@ -1,0 +1,51 @@
+.img img {
+    height: 120px;
+    width: 120px;
+}
+
+.elemento {
+    padding: 10px;
+    border: solid 2px rgb(100, 100, 100);
+    border-radius: 10px;
+    background: rgb(236, 236, 236);
+}
+
+.elemento>.titulo {
+    text-align: center;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.elemento>.permiso {
+    cursor: pointer;
+    padding: 5px;
+    display: flex;
+    margin: 10px;
+    border: solid 1px black;
+    justify-content: center;
+    align-items: center;
+    font-size: 9pt;
+    text-align: center;
+}
+
+.elemento>.permiso.correcto {
+    background: rgb(0, 255, 0);
+}
+
+.elemento>.permiso.removido {
+    background: rgb(255, 66, 66);
+}
+
+.elemento>.permiso.asignado {
+    background: rgb(2, 138, 2);
+    color: white;
+}
+
+.elemento>.permiso.asignado:hover {
+    background: rgb(4, 41, 4);
+}
+
+.elemento>.permiso:hover {
+    background: rgb(4, 153, 49);
+    color: white;
+}

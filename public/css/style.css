@@ -1,0 +1,87 @@
+*{
+    margin:0;
+}
+
+body{
+    background:rgb(213, 226, 255);
+}
+
+/* COLORES Y OTROS */
+.centreado{
+text-align: center;      
+}
+
+.redondeado{
+border-radius: 50%;
+padding: 10px 15px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.azul{
+font-weight: bold;
+background:#0b7af4;
+color:white;
+}
+
+.verde{
+    font-weight: bold;
+    background:#117011;
+    color:white;
+}
+  
+.color_negro{
+    color:black;
+}
+
+.color_plomoOscuro{
+    color:rgb(41, 41, 41);
+}
+
+.color_blanco{
+    color:white;
+}
+
+.invalid-feedback{
+    color:#F44336;
+}
+
+.oculto{
+    display:none!important;
+}
+
+/* FORMULARIOS*/
+
+.form-group .form-line .form-label{
+    color:rgb(102, 102, 102);
+}
+
+/* TABLAS */
+i.editar{
+    color:#4E9F18;
+}
+i.eliminar{
+    color:#E23949;
+}
+
+i.editar:hover{
+    color:#52C008;
+}
+i.eliminar:hover{
+    color:#FF0A22;
+}
+
+.invalid-feedback{
+    color:red;
+}
+
+.botones a{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bg-deep-purple:hover{
+    color:white;
+}

@@ -1,0 +1,169 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.elemento{
+    padding: 10px;
+    height: 100px;
+    border:solid 2px;
+    font-weight: bold;
+    font-size: 1.3em;
+    text-align: center;
+    background:rgb(0, 202, 0);
+    transition:0.5s;
+}
+
+.elemento:hover{
+    background:rgb(255, 229, 81);
+    cursor: pointer;
+}
+
+.error{
+    color:red;
+}
+
+
+.si{
+    background: red;   
+    color:white;
+}
+
+.si:hover{
+    cursor: default;
+    background: red;   
+}
+
+.no{
+    background:rgb(0, 202, 0);
+}
+
+.seleccionado{
+    background:rgb(255, 229, 81);
+}
+
+#mapeo_id{
+    cursor: default;
+    opacity: 0;
+}
+
+#mapeo_id-error{
+    margin-top:-50px;
+}
+
+.instruccion{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.cuadrado{
+    /* display:flex; */
+    height: 20px!important;
+    width: 20px!important;
+}
+
+.inst{
+    margin-top: -15px;
+}
+
+p span:nth-child(2)
+{
+    margin-left: 3px;
+}
+
+.fondo_rojo{
+    background: red;
+}
+
+.fondo_verde{
+    background:rgb(0, 202, 0);
+}
+
+
+
+#m_ingreso2 .modal-dialog{
+    margin-top:0px;
+    height: 100vh!important;
+}
+
+#m_ingreso2 .modal-dialog .modal-content{
+    height: 100vh!important;
+}
+
+#m_ingreso2 .modal-dialog .modal-header{
+    height: 10vh!important;
+}
+
+#m_ingreso2 .modal-dialog .modal-body{
+    height: 85vh!important;
+    overflow: auto;
+}
+
+#m_ingreso2 .modal-dialog .modal-footer{
+    height: 0vh!important;
+}
+
+#m_ingreso1 .modal-dialog .modal-header{
+    position: relative;
+}
+
+#m_ingreso1 .modal-dialog .modal-header h4{
+    font-size: 1.7em;
+}
+
+#m_ingreso1 .modal-dialog .modal-content{
+    background: rgba(8, 8, 8, 0.651);
+    color:white;
+    border:solid 2px white;
+}
+
+#m_ingreso1 .modal-dialog .modal-body{
+    overflow: auto;
+    padding: 35px;
+}
+
+#ubicacion_asignada{
+    margin:auto;
+    width: 100%;
+    height: auto;
+    font-size: 1.9em;
+}
+
+#ubicacion_asignada table{
+    width: 100%;
+}
+
+#ubicacion_asignada table tr td{
+    border-spacing: 10px 5px;
+}
+
+#ubicacion_asignada table tr td:nth-child(2){
+    border:solid 2px;
+    background:rgb(0, 202, 0);
+    color:black;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.derecha{
+    text-align: right;
+    padding-right: 5px; 
+}
+
+.izquierda{
+    text-align: left;
+    padding-left: 5px; 
+}
+
+#conteo{
+    font-size: 2.5em;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
